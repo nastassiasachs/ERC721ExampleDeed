@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "scripts/test.sh",
+    "test": "scripts/test.sh"
   },
   "author": "Nastassia Sachs <nastassia.sachs@protonmail.com>",
   "repository": {
