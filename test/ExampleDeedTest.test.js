@@ -31,7 +31,6 @@ contract('ExampleDeed', accounts => {
     describe('when the given id exists', function () {
       it('marks the deed as deleted', async function () {
         let countOfDeeds = await deed.countOfDeeds();
-        console.log('testtt', countOfDeeds);
         countOfDeeds.should.be.bignumber.equal(3);
         let count = await  deed.countOfDeedsByOwner(_creator);
         let deedId = await deed.deedOfOwnerByIndex(_creator, --count);

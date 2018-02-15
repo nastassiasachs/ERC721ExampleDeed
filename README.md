@@ -2,7 +2,9 @@
 
 `ExampleDeed.sol` is an attempt to implement the latest draft of the ERC721 standard.
 
-Its inheriting contract `ERC721Deed.sol` is based on the `ERC721Token` from OpenZeppelin. The term NFT (non-fungible token) was dropped in favour of the more fitting term deed.
+Its inheriting contract `ERC721Deed.sol` is based on the `ERC721Token` from OpenZeppelin (https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/token/ERC721/ERC721Token.sol). The term NFT (non-fungible token) was dropped in favour of the more fitting term deed.
+
+*Warning:* The standard is still open for discussion, so this project should be considered work in progress. Follow the discussion here: https://github.com/ethereum/EIPs/pull/841
 
 ## About this example
 
